@@ -12,7 +12,7 @@ Involves handling missing values, removing irrelevant columns, converting date c
 - **Imputation**:
   - Fill with the mean, median, or mode for numerical data.
   - Use the most frequent value like ("NA") for categorical data.
-  - **Predictive Imputation**: Use machine learning models to predict the missing values based on other columns.
+- **Predictive Imputation**: Use machine learning models to predict the missing values based on other columns.
 
 ## Exploratory Data Analysis (EDA)
 
