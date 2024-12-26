@@ -1,6 +1,6 @@
 # Project Overview
 
-The dataset provides detailed sales and order-related information, making it suitable for building a predictive model to estimate order amounts. This project focuses on data cleaning, EDA, feature selection, and model training.
+The dataset provides detailed sales and order-related information, making it suitable for building a predictive model to estimate the Order Amount. This project focuses on data cleaning, EDA, feature selection, and model training.
 
 ## Data Cleaning
 
