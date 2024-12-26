@@ -6,7 +6,7 @@ The dataset provides detailed sales and order-related information, making it sui
 
 Involves handling missing values, removing irrelevant columns, converting date columns, and addressing negative values in the order amount.
 
-### For missing data, the following can be done:
+### The following approaches can be applied to handle missing data:
 
 - **Remove Columns or Rows**: If the columns or rows with missing values are not critical, you can drop them.
 - **Imputation**:
@@ -23,8 +23,10 @@ Performs an initial data inspection, including basic statistics, data distributi
 Using Random Forest Regressor and SelectKBest to identify important features for predicting the target variable.
 
 The Selected Features:
+```python
 X = df[['Rolls Ordered', 'Est. Extended Cost (Line)', 'Parent Record', 'Actual Ship Date Year', 'Sales Order Name', 'Date Created Year', 'Sales Region', 'Memo', 'Project Use Type']]
 y = df['Order Amount']
+```
 
 ## Model Training and Hyperparameter Tuning
 
